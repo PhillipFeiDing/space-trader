@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.xode.spaceTrader.presenter.GameInfo">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="872" height="712"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="59de3" binding="topPanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="49462" binding="leftPanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="5" left="5" bottom="5" right="5"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="525"/>
+                <preferred-size width="-1" height="525"/>
+                <maximum-size width="-1" height="525"/>
+              </grid>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="33381" class="javax.swing.JLabel" binding="playerLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="40"/>
+                    <preferred-size width="-1" height="40"/>
+                    <maximum-size width="-1" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="24"/>
+                  <text value="Player"/>
+                </properties>
+              </component>
+              <grid id="2e0c4" binding="playerPanel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="abb" class="javax.swing.JLabel" binding="nameLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="Name"/>
+                    </properties>
+                  </component>
+                  <component id="e508c" class="javax.swing.JLabel" binding="nameValueLabel">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="1" use-parent-layout="false">
+                        <minimum-size width="100" height="-1"/>
+                        <preferred-size width="100" height="-1"/>
+                        <maximum-size width="100" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <horizontalAlignment value="4"/>
+                      <text value="-"/>
+                    </properties>
+                  </component>
+                  <component id="a8f22" class="javax.swing.JLabel" binding="creditsLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="Credits"/>
+                    </properties>
+                  </component>
+                  <component id="d9f8" class="javax.swing.JLabel" binding="creditsValueLabel">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="1" use-parent-layout="false">
+                        <minimum-size width="100" height="-1"/>
+                        <preferred-size width="100" height="-1"/>
+                        <maximum-size width="100" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <horizontalAlignment value="4"/>
+                      <text value="-"/>
+                    </properties>
+                  </component>
+                  <component id="4025" class="javax.swing.JLabel" binding="gameDifficultyLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="Difficulty"/>
+                    </properties>
+                  </component>
+                  <component id="eea48" class="javax.swing.JLabel" binding="gameDifficultyValueLabel">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="1" use-parent-layout="false">
+                        <minimum-size width="100" height="-1"/>
+                        <preferred-size width="100" height="-1"/>
+                        <maximum-size width="100" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <horizontalAlignment value="4"/>
+                      <text value="-"/>
+                    </properties>
+                  </component>
+                  <component id="e2ccc" class="javax.swing.JLabel" binding="karmaLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="Karma"/>
+                    </properties>
+                  </component>
+                  <component id="46012" class="javax.swing.JLabel" binding="karmaValueLabel">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="1" use-parent-layout="false">
+                        <minimum-size width="100" height="-1"/>
+                        <preferred-size width="100" height="-1"/>
+                        <maximum-size width="100" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <horizontalAlignment value="4"/>
+                      <text value="-"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="640a7" binding="skillsPanel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="dd7cf" class="javax.swing.JLabel" binding="pilotLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="Pilot"/>
+                    </properties>
+                  </component>
+                  <component id="c8d4a" class="javax.swing.JLabel" binding="pilotValueLabel">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="1" use-parent-layout="false">
+                        <minimum-size width="100" height="-1"/>
+                        <preferred-size width="100" height="-1"/>
+                        <maximum-size width="100" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <horizontalAlignment value="4"/>
+                      <text value="-"/>
+                    </properties>
+                  </component>
+                  <component id="8de08" class="javax.swing.JLabel" binding="fighterLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="Fighter"/>
+                    </properties>
+                  </component>
+                  <component id="d7915" class="javax.swing.JLabel" binding="fighterValueLabel">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="1" use-parent-layout="false">
+                        <minimum-size width="100" height="-1"/>
+                        <preferred-size width="100" height="-1"/>
+                        <maximum-size width="100" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <horizontalAlignment value="4"/>
+                      <text value="-"/>
+                    </properties>
+                  </component>
+                  <component id="bb345" class="javax.swing.JLabel" binding="merchantLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="Merchant"/>
+                    </properties>
+                  </component>
+                  <component id="22ad6" class="javax.swing.JLabel" binding="merchantValueLabel">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="1" use-parent-layout="false">
+                        <minimum-size width="100" height="-1"/>
+                        <preferred-size width="100" height="-1"/>
+                        <maximum-size width="100" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <horizontalAlignment value="4"/>
+                      <text value="-"/>
+                    </properties>
+                  </component>
+                  <component id="510cc" class="javax.swing.JLabel" binding="engineerLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="Engineer"/>
+                    </properties>
+                  </component>
+                  <component id="fe907" class="javax.swing.JLabel" binding="engineerValueLabel">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="1" use-parent-layout="false">
+                        <minimum-size width="100" height="-1"/>
+                        <preferred-size width="100" height="-1"/>
+                        <maximum-size width="100" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <horizontalAlignment value="4"/>
+                      <text value="-"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="753c0" class="javax.swing.JLabel" binding="skillsLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="40"/>
+                    <preferred-size width="-1" height="40"/>
+                    <maximum-size width="-1" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="24"/>
+                  <text value="Skills"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="6efba" binding="rightPanel" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+            <margin top="5" left="5" bottom="5" right="5"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="525"/>
+                <preferred-size width="-1" height="525"/>
+                <maximum-size width="-1" height="525"/>
+              </grid>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="94269" class="javax.swing.JLabel" binding="shipLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="40"/>
+                    <preferred-size width="-1" height="40"/>
+                    <maximum-size width="-1" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="24"/>
+                  <text value="Ship"/>
+                </properties>
+              </component>
+              <grid id="b2b72" binding="shipPanel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="4cc52" class="javax.swing.JLabel" binding="typeLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false">
+                        <minimum-size width="-1" height="40"/>
+                        <preferred-size width="-1" height="40"/>
+                        <maximum-size width="-1" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="Type"/>
+                    </properties>
+                  </component>
+                  <component id="940a5" class="javax.swing.JLabel" binding="typeValueLabel">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="100" height="-1"/>
+                        <preferred-size width="100" height="-1"/>
+                        <maximum-size width="100" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <horizontalAlignment value="0"/>
+                      <text value="-"/>
+                    </properties>
+                  </component>
+                  <component id="d1ee3" class="javax.swing.JLabel" binding="healthLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false">
+                        <minimum-size width="-1" height="40"/>
+                        <preferred-size width="-1" height="40"/>
+                        <maximum-size width="-1" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="Health"/>
+                    </properties>
+                  </component>
+                  <component id="9b8e5" class="javax.swing.JLabel" binding="fuelLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false">
+                        <minimum-size width="-1" height="40"/>
+                        <preferred-size width="-1" height="40"/>
+                        <maximum-size width="-1" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="Fuel"/>
+                    </properties>
+                  </component>
+                  <grid id="45be1" binding="healthPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                        <minimum-size width="460" height="30"/>
+                        <preferred-size width="460" height="30"/>
+                        <maximum-size width="460" height="30"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="95162" class="javax.swing.JLabel" binding="healthValueLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="18"/>
+                          <text value="-/-"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="2dc63" binding="fuelPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                        <minimum-size width="460" height="30"/>
+                        <preferred-size width="460" height="30"/>
+                        <maximum-size width="460" height="30"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="6435a" class="javax.swing.JLabel" binding="fuelValueLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="18"/>
+                          <text value="-/-"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <component id="1f9e3" class="javax.swing.JLabel" binding="capacityLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false">
+                        <minimum-size width="-1" height="40"/>
+                        <preferred-size width="-1" height="40"/>
+                        <maximum-size width="-1" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="Capacity"/>
+                    </properties>
+                  </component>
+                  <component id="24332" class="javax.swing.JLabel" binding="capacityValueLabel">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="100" height="-1"/>
+                        <preferred-size width="100" height="-1"/>
+                        <maximum-size width="100" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <horizontalAlignment value="0"/>
+                      <text value="-"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="a38fd" class="javax.swing.JLabel" binding="messageLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="50"/>
+                    <preferred-size width="-1" height="50"/>
+                    <maximum-size width="-1" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <font size="18"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Message"/>
+                </properties>
+              </component>
+              <grid id="30ece" binding="cargoesPanel" layout-manager="GridLayoutManager" row-count="5" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="2" vgap="2">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <minimum-size width="550" height="200"/>
+                    <preferred-size width="550" height="200"/>
+                    <maximum-size width="550" height="200"/>
+                  </grid>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="66b74" binding="cargoPanel0" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="d3f83" class="javax.swing.JLabel" binding="cargoLabel0">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="80" height="-1"/>
+                            <preferred-size width="80" height="-1"/>
+                            <maximum-size width="80" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="10"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                      <component id="d7bfc" class="javax.swing.JLabel" binding="cargo0ValueLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="45" height="-1"/>
+                            <preferred-size width="45" height="-1"/>
+                            <maximum-size width="45" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="11"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="2c809" binding="cargoPanel1" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="f5a96" class="javax.swing.JLabel" binding="cargo1ValueLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="45" height="-1"/>
+                            <preferred-size width="45" height="-1"/>
+                            <maximum-size width="45" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="11"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                      <component id="54f3" class="javax.swing.JLabel" binding="cargoLabel1">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="80" height="-1"/>
+                            <preferred-size width="80" height="-1"/>
+                            <maximum-size width="80" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="10"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="865de" binding="cargoPanel2" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="76c59" class="javax.swing.JLabel" binding="cargo2ValueLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="45" height="-1"/>
+                            <preferred-size width="45" height="-1"/>
+                            <maximum-size width="45" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="11"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                      <component id="3739e" class="javax.swing.JLabel" binding="cargoLabel2">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="80" height="-1"/>
+                            <preferred-size width="80" height="-1"/>
+                            <maximum-size width="80" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="10"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="78fee" binding="cargoPanel3" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="f9849" class="javax.swing.JLabel" binding="cargo3ValueLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="45" height="-1"/>
+                            <preferred-size width="45" height="-1"/>
+                            <maximum-size width="45" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="11"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                      <component id="2253e" class="javax.swing.JLabel" binding="cargoLabel3">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="80" height="-1"/>
+                            <preferred-size width="80" height="-1"/>
+                            <maximum-size width="80" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="10"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="1fc53" binding="cargoPanel4" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="ddcca" class="javax.swing.JLabel" binding="cargoLabel4">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="80" height="-1"/>
+                            <preferred-size width="80" height="-1"/>
+                            <maximum-size width="80" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="10"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                      <component id="53a4" class="javax.swing.JLabel" binding="cargo4ValueLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="45" height="-1"/>
+                            <preferred-size width="45" height="-1"/>
+                            <maximum-size width="45" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="11"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="b3faf" binding="cargoPanel5" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="a92bb" class="javax.swing.JLabel" binding="cargoLabel5">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="80" height="-1"/>
+                            <preferred-size width="80" height="-1"/>
+                            <maximum-size width="80" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="10"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                      <component id="40b0b" class="javax.swing.JLabel" binding="cargo5ValueLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="45" height="-1"/>
+                            <preferred-size width="45" height="-1"/>
+                            <maximum-size width="45" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="11"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="ac42e" binding="cargoPanel6" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="9926" class="javax.swing.JLabel" binding="cargoLabel6">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="80" height="-1"/>
+                            <preferred-size width="80" height="-1"/>
+                            <maximum-size width="80" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="10"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                      <component id="9e473" class="javax.swing.JLabel" binding="cargo6ValueLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="45" height="-1"/>
+                            <preferred-size width="45" height="-1"/>
+                            <maximum-size width="45" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="11"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="b4853" binding="cargoPanel7" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="5d0db" class="javax.swing.JLabel" binding="cargoLabel7">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="80" height="-1"/>
+                            <preferred-size width="80" height="-1"/>
+                            <maximum-size width="80" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="10"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                      <component id="741ab" class="javax.swing.JLabel" binding="cargo7ValueLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="45" height="-1"/>
+                            <preferred-size width="45" height="-1"/>
+                            <maximum-size width="45" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="11"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="14cf0" binding="cargoPanel8" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="7b756" class="javax.swing.JLabel" binding="cargoLabel8">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="80" height="-1"/>
+                            <preferred-size width="80" height="-1"/>
+                            <maximum-size width="80" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="10"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                      <component id="f76ca" class="javax.swing.JLabel" binding="cargo8ValueLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="45" height="-1"/>
+                            <preferred-size width="45" height="-1"/>
+                            <maximum-size width="45" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="11"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="3b051" binding="cargoPanel9" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="c76ed" class="javax.swing.JLabel" binding="cargoLabel9">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="80" height="-1"/>
+                            <preferred-size width="80" height="-1"/>
+                            <maximum-size width="80" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="10"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                      <component id="d3a6a" class="javax.swing.JLabel" binding="cargo9ValueLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="45" height="-1"/>
+                            <preferred-size width="45" height="-1"/>
+                            <maximum-size width="45" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="11"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="42c5a" binding="cargoPanel10" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="7f1a7" class="javax.swing.JLabel" binding="cargoLabel10">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="80" height="-1"/>
+                            <preferred-size width="80" height="-1"/>
+                            <maximum-size width="80" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="10"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                      <component id="75e05" class="javax.swing.JLabel" binding="cargo10ValueLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="45" height="-1"/>
+                            <preferred-size width="45" height="-1"/>
+                            <maximum-size width="45" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="11"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="1a4af" binding="cargoPanel11" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="2740e" class="javax.swing.JLabel" binding="cargoLabel11">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="80" height="-1"/>
+                            <preferred-size width="80" height="-1"/>
+                            <maximum-size width="80" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="10"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                      <component id="f1578" class="javax.swing.JLabel" binding="cargo11ValueLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="45" height="-1"/>
+                            <preferred-size width="45" height="-1"/>
+                            <maximum-size width="45" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="11"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="13edd" binding="cargoPanel12" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="21fee" class="javax.swing.JLabel" binding="cargoLabel12">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="80" height="-1"/>
+                            <preferred-size width="80" height="-1"/>
+                            <maximum-size width="80" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="10"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                      <component id="aec5" class="javax.swing.JLabel" binding="cargo12ValueLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="45" height="-1"/>
+                            <preferred-size width="45" height="-1"/>
+                            <maximum-size width="45" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="11"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="a866" binding="cargoPanel13" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="5323e" class="javax.swing.JLabel" binding="cargoLabel13">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="80" height="-1"/>
+                            <preferred-size width="80" height="-1"/>
+                            <maximum-size width="80" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="10"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                      <component id="56d46" class="javax.swing.JLabel" binding="cargo13ValueLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="45" height="-1"/>
+                            <preferred-size width="45" height="-1"/>
+                            <maximum-size width="45" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="11"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="de88e" binding="cargoPanel14" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="ec5c6" class="javax.swing.JLabel" binding="cargoLabel14">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="80" height="-1"/>
+                            <preferred-size width="80" height="-1"/>
+                            <maximum-size width="80" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="10"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                      <component id="1c9ec" class="javax.swing.JLabel" binding="cargo14ValueLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="45" height="-1"/>
+                            <preferred-size width="45" height="-1"/>
+                            <maximum-size width="45" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="11"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="95357" binding="cargoPanel15" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="b3b1c" class="javax.swing.JLabel" binding="cargoLabel15">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="80" height="-1"/>
+                            <preferred-size width="80" height="-1"/>
+                            <maximum-size width="80" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="10"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                      <component id="3667f" class="javax.swing.JLabel" binding="cargo15ValueLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="45" height="-1"/>
+                            <preferred-size width="45" height="-1"/>
+                            <maximum-size width="45" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="11"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="67d64" binding="cargoPanel16" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="e238c" class="javax.swing.JLabel" binding="cargoLabel16">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="80" height="-1"/>
+                            <preferred-size width="80" height="-1"/>
+                            <maximum-size width="80" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="10"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                      <component id="790d2" class="javax.swing.JLabel" binding="cargo16ValueLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="45" height="-1"/>
+                            <preferred-size width="45" height="-1"/>
+                            <maximum-size width="45" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="11"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="bcdfc" binding="cargoPanel17" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="17d30" class="javax.swing.JLabel" binding="cargoLabel17">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="80" height="-1"/>
+                            <preferred-size width="80" height="-1"/>
+                            <maximum-size width="80" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="10"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                      <component id="56a5a" class="javax.swing.JLabel" binding="cargo17ValueLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="45" height="-1"/>
+                            <preferred-size width="45" height="-1"/>
+                            <maximum-size width="45" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="11"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="cc98e" binding="cargoPanel18" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="ce893" class="javax.swing.JLabel" binding="cargoLabel18">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="80" height="-1"/>
+                            <preferred-size width="80" height="-1"/>
+                            <maximum-size width="80" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="10"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                      <component id="ad025" class="javax.swing.JLabel" binding="cargo18ValueLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="45" height="-1"/>
+                            <preferred-size width="45" height="-1"/>
+                            <maximum-size width="45" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="11"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="adc04" binding="cargoPanel19" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="a8361" class="javax.swing.JLabel" binding="cargoLabel19">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="80" height="-1"/>
+                            <preferred-size width="80" height="-1"/>
+                            <maximum-size width="80" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="10"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                      <component id="9fb4c" class="javax.swing.JLabel" binding="cargo19ValueLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="45" height="-1"/>
+                            <preferred-size width="45" height="-1"/>
+                            <maximum-size width="45" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="11"/>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <component id="870bd" class="javax.swing.JLabel" binding="cargoesLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="40"/>
+                    <preferred-size width="-1" height="40"/>
+                    <maximum-size width="-1" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="18"/>
+                  <text value="Cargoes"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="d02d" class="javax.swing.JButton" binding="backButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="50"/>
+            <preferred-size width="100" height="50"/>
+            <maximum-size width="100" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <text value="Back"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
